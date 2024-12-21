@@ -1,22 +1,12 @@
 import React from 'react';
 
-// Gold Sponsors
-// import Scotiabank from '../assets/Sponsors/Scotiabank.png';
-// import Envronics from '../assets/Sponsors/environics.png';
-// import Lassonde from '../assets/Sponsors/Lassonde.png';
-
 // Silver Sponsors
  import RBC from '../assets/Sponsors/RBC.png';
-// import Envronics from '../assets/Sponsors/environics.png';
-// import Lassonde from '../assets/Sponsors/Lassonde.png';
-
 
 // Bronze Sponsors
-// import PG from '../assets/Sponsors/P&G.png';
 import KPM from '../assets/Sponsors/KPM.png';
 import ExperienceVentures from '../assets/Sponsors/ExperienceVentures.png';
 import Yspace from '../assets/Sponsors/Yspace.png';
-// import CGI from '../assets/Sponsors/CGI.png';
 
 // Community Sponsors
 import Reactor from '../assets/Sponsors/Reactor.png';
@@ -31,24 +21,6 @@ function Sponsors() {
       <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4 text-left text-[#555F49] font-bold">
        Meet our Sponsors!
       </h2>
-
-      {/* Gold Sponsors */}
-      {/* <div className="mb-8">
-        <h2 className="text-[#545353] text-3xl sm:text-4xl md:text-4xl mb-4 text-left">
-          Gold Sponsors
-        </h2>
-        <div className="flex flex-col gap-4 mb-8 items-center justify-center">
-          <div className="w-full h-48 bg-white rounded-full flex justify-center items-center">
-            <img src={Scotiabank} alt="Scotiabank" className="h-20 sm:h-32 object-contain" />
-          </div>
-          <div className="w-full h-48 bg-white rounded-full flex justify-center items-center">
-            <img src={Envronics} alt="Envrionics" className="h-32 sm:h-40 object-contain" />
-          </div>
-          <div className="w-full h-48 bg-white rounded-full flex justify-center items-center">
-            <img src={Lassonde} alt="Lassonde" className="h-20 sm:h-32 object-contain" />
-          </div>
-        </div>
-      </div> */}
 
       {/* Silver Sponsors */}
       <div className="mb-8">

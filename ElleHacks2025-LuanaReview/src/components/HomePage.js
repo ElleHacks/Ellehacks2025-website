@@ -17,6 +17,19 @@ const HeroSection = () => {
                     <span className="font-['Faustina'] text-xl font-semibold text-[#555F49] leading-none">Official Member</span>
                 </a>
 
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSetoKtXD8zkb_0-aGIfI_C3RogXQi3dXXxuEKPvtY2zqteUDg/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <button
+                        className="mt-2 bg-[#555F49] font-['Faustina'] text-white text-sm py-2 px-4 rounded-3xl hover:bg-[#D8AA6C]"
+                    >
+                        Apply Now
+                    </button>
+                </a>
+
+
                 <img src={Bee} alt="Bee" className="w-[326px] h-[196px] mt-2" />
             </div>
 
@@ -42,6 +55,13 @@ const HeroSection = () => {
                             <p className="text-[#555F49] whitespace-nowrap m-0 leading-none">Official Member</p>
                         </a>
                     </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSetoKtXD8zkb_0-aGIfI_C3RogXQi3dXXxuEKPvtY2zqteUDg/viewform"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <button className="mt-3 bg-[#555F49] font-['Faustina'] text-white text-xl lg:text-2xl py-2 px-12 rounded-3xl hover:bg-[#D8AA6C]">
+                            Apply Now
+                        </button>
+                    </a>
                 </div>
 
                 {/* Bee image */}
