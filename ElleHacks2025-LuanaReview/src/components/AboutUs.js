@@ -6,7 +6,7 @@ import img2 from "../assets/AboutUs/TeamPic.JPG";
 
 const AboutUs = () => {
     return (
-        <div className="flex flex-col lg:flex-row items-left justify-center w-full px-4 mx-auto lg:mx-20 xl:mx-64 max-w-screen-xl mt-20">
+        <div className="flex flex-col lg:flex-row items-left justify-center w-full px-4 mx-auto lg:mx-20 xl:mx-64 max-w-screen-xl mt-20 mb-20">
 
             {/* About Us Text */}
             <div className="flex-1 text-left font-[Faustina] mx-auto">

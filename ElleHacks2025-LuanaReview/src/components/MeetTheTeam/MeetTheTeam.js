@@ -29,7 +29,7 @@ function MeetTheTeam() {
     setCurrentTeamIndex((prevIndex) => (prevIndex - 1 + teamKeys.length) % teamKeys.length);
 
   useEffect(() => {
-    const intervalId = setInterval(nextTeam, 2000);
+    const intervalId = setInterval(nextTeam, 15000);
 
     return () => clearInterval(intervalId);
   }, [nextTeam]); 
@@ -71,6 +71,7 @@ function MeetTheTeam() {
               name={member.name}
               title={member.title}
               image={member.image}
+              linkedin={member.linkedin}
             />
           ))}
         </div>

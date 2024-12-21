@@ -1,7 +1,8 @@
 import React from 'react';
 import "../../fonts/fonts.css";
+import { FaLinkedinIn } from 'react-icons/fa';
 
-function TeamMember({ name, title, image }) {
+function TeamMember({ name, title, image, linkedin }) {
   return (
     <>
       {/* Card Mobile Layout*/}
@@ -17,10 +18,19 @@ function TeamMember({ name, title, image }) {
           <h3 className="text-base">{name}</h3>
           <p className="text-sm">{title}</p>
         </div>
+        <a
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          className="p-2 bg-[#D8AA6C] hover:bg-[#9DAF87] text-white rounded-full ml-auto"
+        >
+          <FaLinkedinIn size={20} />
+        </a>
       </div>
 
       {/* Card Desktop Layout */}
-      <div className="bg-[#9DAF87] p-4 w-45 text-left rounded-md shadow flex flex-col max-w-xs mx-auto md:block hidden">
+      <div className="bg-[#9DAF87] p-4 w-45 text-left rounded-md shadow flex flex-col max-w-xs mx-auto md:block hidden relative group">
         <div className="relative w-full md:w-40 mx-auto">
           <img
             src={image}
@@ -32,6 +42,15 @@ function TeamMember({ name, title, image }) {
           <h3 className="text-sm">{name}</h3>
           <p className="text-md">{title}</p>
         </div>
+        <a
+          href={linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+          className="absolute top-4 right-4 p-2 bg-[#9DAF87] hover:bg-[#D8AA6C] text-white rounded-full"
+        >
+          <FaLinkedinIn size={20} />
+        </a>
       </div>
 
 

@@ -38,7 +38,7 @@ const HeroSection = () => {
                             rel="noopener noreferrer"
                             className="flex items-center no-underline"
                         >
-                            <img src={MLHLogo} alt="MLH Logo" className="ml-1 mr-2 w-13 h-13 -mt-2" />
+                            <img src={MLHLogo} alt="MLH Logo" className="ml-1 mr-2 w-13 h-13 mt-2" />
                             <p className="text-[#555F49] whitespace-nowrap m-0 leading-none">Official Member</p>
                         </a>
                     </div>

@@ -12,6 +12,7 @@ import FAQ from './components/FAQ/FAQ';
 import Location from './components/Location';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
 import Footer from './components/Footer';
+//import HackerApplication from './components/HackerApplication';
 
 function App() {
   return (

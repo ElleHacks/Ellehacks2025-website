@@ -99,19 +99,14 @@ function NavBar() {
 
             </nav>
 
-            <a href="https://mlh.io/seasons/2025/events">
+            <a href="https://mlh.io/seasons/2025/events" className="fixed top-0 right-6 z-[2000]">
                 <img
                     src={MLHBanner}
                     alt="MLH Trust Badge"
-                    style={{
-                        maxHeight: '150px',
-                        position: 'fixed',
-                        top: '0px',
-                        right: '25px',
-                        zIndex: '2000'
-                    }}
+                    className="max-h-[120px] md:max-h-[200px]"
                 />
             </a>
+
         </div>
     );
 }
