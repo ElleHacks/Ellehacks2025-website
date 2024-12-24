@@ -32,7 +32,7 @@ function Sponsors() {
           </div>
         </div>
       </div>
-      
+
       { /* Bronze Sponsors */}
       <div className="mb-8">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 mb-8 justify-center">
@@ -74,7 +74,7 @@ function Sponsors() {
           </div>
           <div className="w-1/3 h-14 md:w-64 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center">
             <a href="https://www.levelupreality.ca/" target="_blank" rel="noreferrer">
-              <img src={LevelUp} alt="Community Sponsor" className="h-28 object-contain" />
+              <img src={LevelUp} alt="Community Sponsor" className="h-7 md:h-10 object-contain" />
             </a>
           </div>
           <div className="w-1/3 h-14 md:w-64 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center">
