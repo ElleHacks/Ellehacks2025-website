@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.49418bf8.css",
-    "main.js": "/static/js/main.7491f1e2.js",
+    "main.css": "/static/css/main.d474b62d.css",
+    "main.js": "/static/js/main.f160a383.js",
     "static/js/453.34667fe0.chunk.js": "/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
+    "static/media/CodeCrafters.png": "/static/media/CodeCrafters.3e5d0626a7335cf6b51c.png",
     "static/media/Eloise_CreativeMedia.png": "/static/media/Eloise_CreativeMedia.fc0a13592e32a47cdb04.png",
     "static/media/Sabriha_LogisticsDirector.png": "/static/media/Sabriha_LogisticsDirector.e58167acb707bac25bb5.png",
+    "static/media/Incogni.png": "/static/media/Incogni.8f1c35d61d1d7237c054.png",
     "static/media/Inter_18pt-SemiBold.ttf": "/static/media/Inter_18pt-SemiBold.d52a01d17b566af4e096.ttf",
     "static/media/Misheel_LogisticsExecutive.png": "/static/media/Misheel_LogisticsExecutive.28f265f09dbccfdab804.png",
     "static/media/TeamPic.JPG": "/static/media/TeamPic.435edc8acf1bd70f3c4e.JPG",
@@ -20,6 +22,8 @@
     "static/media/ElleHacksLogo.png": "/static/media/ElleHacksLogo.0f856f36cd692c64133a.png",
     "static/media/StandOutSticker.png": "/static/media/StandOutSticker.3d589df2ef17122e7fe7.png",
     "static/media/RBC.png": "/static/media/RBC.6ab75a157fbe965e803d.png",
+    "static/media/Nordpass.png": "/static/media/Nordpass.37185ec197fdd65ac10f.png",
+    "static/media/ZebraRobotics.png": "/static/media/ZebraRobotics.b80e181bff14ca5e6ed5.png",
     "static/media/Rayyan_ITExecutive.jpg": "/static/media/Rayyan_ITExecutive.34fa41388d3c498299ee.jpg",
     "static/media/LevelUp.png": "/static/media/LevelUp.f2364851290bac0ccf50.png",
     "static/media/MLHBanner.svg": "/static/media/MLHBanner.66411d220a52db461d2f225e9fe7d340.svg",
@@ -33,6 +37,7 @@
     "static/media/Aryan_Kansagara_IT_Executive.jpg": "/static/media/Aryan_Kansagara_IT_Executive.009a3b0a4fe3c4e861c4.jpg",
     "static/media/Ning_MarketingDirector.jpg": "/static/media/Ning_MarketingDirector.1954e49544e7244f612b.jpg",
     "static/media/Rodiat_Marketing.jpg": "/static/media/Rodiat_Marketing.db216785e20a6888bb9d.jpg",
+    "static/media/Saily.png": "/static/media/Saily.a511903129ee3330a806.png",
     "static/media/ExperienceVentures.png": "/static/media/ExperienceVentures.665154cc7297efffa864.png",
     "static/media/Dimitra_ITExecutive.jpg": "/static/media/Dimitra_ITExecutive.89109a1448e8d37e1202.jpg",
     "static/media/Joanne_ITExecutive.jpg": "/static/media/Joanne_ITExecutive.98f77fbbc370baaf150a.jpg",
@@ -54,18 +59,20 @@
     "static/media/Ann_Marketing.jpg": "/static/media/Ann_Marketing.bbe98f5b6c297555867c.jpg",
     "static/media/Julia_ITDirector.jpg": "/static/media/Julia_ITDirector.b2ecb35a9d6d144f70bb.jpg",
     "static/media/Voiceflow.png": "/static/media/Voiceflow.c910d512dcc260d6e193.png",
+    "static/media/NordVPN.png": "/static/media/NordVPN.639fd9764515c0787274.png",
     "static/media/Aditi_LogisticsExecutive.jpg": "/static/media/Aditi_LogisticsExecutive.072094fc90f7e03bb643.jpg",
     "static/media/Brampton_Innovation.png": "/static/media/Brampton_Innovation.9e173eb9509eb5018004.png",
     "static/media/Assem_LogisticsExec.jpg": "/static/media/Assem_LogisticsExec.5eeae6778787030acd75.jpg",
+    "static/media/YorkRegion.png": "/static/media/YorkRegion.1458f26d3f86462cf1a0.png",
     "static/media/KPM.png": "/static/media/KPM.2399fd876691a3670a60.png",
     "static/media/MLHLogo.svg": "/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/index.html",
-    "main.49418bf8.css.map": "/static/css/main.49418bf8.css.map",
-    "main.7491f1e2.js.map": "/static/js/main.7491f1e2.js.map",
+    "main.d474b62d.css.map": "/static/css/main.d474b62d.css.map",
+    "main.f160a383.js.map": "/static/js/main.f160a383.js.map",
     "453.34667fe0.chunk.js.map": "/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49418bf8.css",
-    "static/js/main.7491f1e2.js"
+    "static/css/main.d474b62d.css",
+    "static/js/main.f160a383.js"
   ]
 }
