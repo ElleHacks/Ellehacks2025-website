@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5ca786b.css",
-    "main.js": "/static/js/main.d1de9a9b.js",
+    "main.css": "/static/css/main.71583c31.css",
+    "main.js": "/static/js/main.856f332f.js",
     "static/js/453.34667fe0.chunk.js": "/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/CodeCrafters.png": "/static/media/CodeCrafters.3e5d0626a7335cf6b51c.png",
@@ -38,9 +38,11 @@
     "static/media/Logo_Filler.png": "/static/media/Logo_Filler.56ae8eb30ccb87e56b82.png",
     "static/media/Vibitha_LogisticsExecutive.jpg": "/static/media/Vibitha_LogisticsExecutive.fd41b7ada2e6cd89ab05.jpg",
     "static/media/Aryan_Kansagara_IT_Executive.jpg": "/static/media/Aryan_Kansagara_IT_Executive.009a3b0a4fe3c4e861c4.jpg",
+    "static/media/SiraPrint.png": "/static/media/SiraPrint.ef59fe53b9b71c49adcb.png",
     "static/media/Ning_MarketingDirector.jpg": "/static/media/Ning_MarketingDirector.1954e49544e7244f612b.jpg",
     "static/media/Rodiat_Marketing.jpg": "/static/media/Rodiat_Marketing.db216785e20a6888bb9d.jpg",
     "static/media/Saily.png": "/static/media/Saily.a511903129ee3330a806.png",
+    "static/media/interviewcake.png": "/static/media/interviewcake.dc92ee7009096a444b45.png",
     "static/media/ExperienceVentures.png": "/static/media/ExperienceVentures.665154cc7297efffa864.png",
     "static/media/Dimitra_ITExecutive.jpg": "/static/media/Dimitra_ITExecutive.89109a1448e8d37e1202.jpg",
     "static/media/Joanne_ITExecutive.jpg": "/static/media/Joanne_ITExecutive.98f77fbbc370baaf150a.jpg",
@@ -68,14 +70,15 @@
     "static/media/Assem_LogisticsExec.jpg": "/static/media/Assem_LogisticsExec.5eeae6778787030acd75.jpg",
     "static/media/YorkRegion.png": "/static/media/YorkRegion.1458f26d3f86462cf1a0.png",
     "static/media/KPM.png": "/static/media/KPM.2399fd876691a3670a60.png",
+    "static/media/vueschool.png": "/static/media/vueschool.43eb0bc34883f9538191.png",
     "static/media/MLHLogo.svg": "/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/index.html",
-    "main.e5ca786b.css.map": "/static/css/main.e5ca786b.css.map",
-    "main.d1de9a9b.js.map": "/static/js/main.d1de9a9b.js.map",
+    "main.71583c31.css.map": "/static/css/main.71583c31.css.map",
+    "main.856f332f.js.map": "/static/js/main.856f332f.js.map",
     "453.34667fe0.chunk.js.map": "/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5ca786b.css",
-    "static/js/main.d1de9a9b.js"
+    "static/css/main.71583c31.css",
+    "static/js/main.856f332f.js"
   ]
 }
