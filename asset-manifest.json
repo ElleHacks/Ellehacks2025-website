@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d474b62d.css",
-    "main.js": "/static/js/main.f160a383.js",
+    "main.css": "/static/css/main.e5ca786b.css",
+    "main.js": "/static/js/main.d1de9a9b.js",
     "static/js/453.34667fe0.chunk.js": "/static/js/453.34667fe0.chunk.js",
     "static/media/Inter-VariableFont_opsz,wght.ttf": "/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
     "static/media/CodeCrafters.png": "/static/media/CodeCrafters.3e5d0626a7335cf6b51c.png",
@@ -14,14 +14,17 @@
     "static/media/opening.JPG": "/static/media/opening.6634cc4b28a5aa7567fb.JPG",
     "static/media/LeafBorder.png": "/static/media/LeafBorder.a91d63234dedf8ec52e1.png",
     "static/media/Bohina_Co-Chair.png": "/static/media/Bohina_Co-Chair.bf01a3d3716c265cbc44.png",
+    "static/media/img4.JPG": "/static/media/img4.55a93af8f528bd602e52.JPG",
     "static/media/Faustina-VariableFont_wght.ttf": "/static/media/Faustina-VariableFont_wght.b86e67eed011bcf8255d.ttf",
     "static/media/Bee.svg": "/static/media/Bee.23f9268ae1b10a904a172d7aef644d0c.svg",
     "static/media/PlantR.png": "/static/media/PlantR.8b0c3dfb69727dcccd1f.png",
     "static/media/PlantL.png": "/static/media/PlantL.05c2d58645ac47acf8c5.png",
     "static/media/Yspace.png": "/static/media/Yspace.114bf4ee68849988ff87.png",
     "static/media/ElleHacksLogo.png": "/static/media/ElleHacksLogo.0f856f36cd692c64133a.png",
+    "static/media/img7.JPG": "/static/media/img7.91b5d937c50c3901749b.JPG",
     "static/media/StandOutSticker.png": "/static/media/StandOutSticker.3d589df2ef17122e7fe7.png",
     "static/media/RBC.png": "/static/media/RBC.6ab75a157fbe965e803d.png",
+    "static/media/img5.JPG": "/static/media/img5.14e81d8f3cb04251fcbd.JPG",
     "static/media/Nordpass.png": "/static/media/Nordpass.37185ec197fdd65ac10f.png",
     "static/media/ZebraRobotics.png": "/static/media/ZebraRobotics.b80e181bff14ca5e6ed5.png",
     "static/media/Rayyan_ITExecutive.jpg": "/static/media/Rayyan_ITExecutive.34fa41388d3c498299ee.jpg",
@@ -67,12 +70,12 @@
     "static/media/KPM.png": "/static/media/KPM.2399fd876691a3670a60.png",
     "static/media/MLHLogo.svg": "/static/media/MLHLogo.67534f990d9556245b4d0dccad1c03f2.svg",
     "index.html": "/index.html",
-    "main.d474b62d.css.map": "/static/css/main.d474b62d.css.map",
-    "main.f160a383.js.map": "/static/js/main.f160a383.js.map",
+    "main.e5ca786b.css.map": "/static/css/main.e5ca786b.css.map",
+    "main.d1de9a9b.js.map": "/static/js/main.d1de9a9b.js.map",
     "453.34667fe0.chunk.js.map": "/static/js/453.34667fe0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d474b62d.css",
-    "static/js/main.f160a383.js"
+    "static/css/main.e5ca786b.css",
+    "static/js/main.d1de9a9b.js"
   ]
 }
