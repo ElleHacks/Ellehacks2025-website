@@ -53,7 +53,6 @@ function TeamMember({ name, title, image, linkedin }) {
         </a>
       </div>
 
-
     </>
   );
 }

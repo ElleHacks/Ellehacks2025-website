@@ -11,7 +11,7 @@ const AboutUs = () => {
             {/* About Us Text */}
             <div className="flex-1 text-left font-[Faustina] mx-auto">
                 <h1 className="text-[#555F49] font-bold text-sm md:text-2xl lg:text-3xl">
-                    ElleHacks is one of Canada’s largest hackathons for women and gender-diverse students, running for its 9th iteration!
+                    ElleHacks is Canada’s largest hackathon for women and gender-diverse students, running for its 9th iteration!
                 </h1>
                 <br />
                 <p className="text-[#545353] text-sm md:text-xl lg:text-2xl">

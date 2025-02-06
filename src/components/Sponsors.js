@@ -1,8 +1,7 @@
 import React from 'react';
 
 //Gold Sponsors
-//import TD from '../assets/Sponsors/TD.png';
-//import Lassonde from "../assets/Sponsors/Lassonde.png";
+import TD from '../assets/Sponsors/TD.png';
 
 // Silver Sponsors
 import RBC from '../assets/Sponsors/RBC.png';
@@ -14,6 +13,8 @@ import Yspace from '../assets/Sponsors/Yspace.png';
 import EnvironicsAnalytics from '../assets/Sponsors/environics.png';
 import YorkRegion from '../assets/Sponsors/YorkRegion.png';
 import CSE from "../assets/Sponsors/CSE.jpg";
+import PG from "../assets/Sponsors/P&G.png";
+import Ubisoft from "../assets/Sponsors/Ubisoft.png";
 
 // Community Sponsors
 import Reactor from '../assets/Sponsors/Reactor.png';
@@ -21,7 +22,6 @@ import BramptionInnovationDistrict from '../assets/Sponsors/Brampton_Innovation.
 import VoiceFlow from '../assets/Sponsors/Voiceflow.png';
 import StandOutSticker from '../assets/Sponsors/StandOutSticker.png';
 import LevelUp from '../assets/Sponsors/LevelUp.png';
-
 import XYZ from '../assets/Sponsors/XYZ.png';
 import ZebraRobotics from '../assets/Sponsors/ZebraRobotics.png';
 import CodeCrafteres from '../assets/Sponsors/CodeCrafters.png';
@@ -29,10 +29,15 @@ import Nordpass from '../assets/Sponsors/Nordpass.png';
 import NordVPN from '../assets/Sponsors/NordVPN.png';
 import Icogni from '../assets/Sponsors/Incogni.png';
 import Saily from '../assets/Sponsors/Saily.png';
-
 import InterviewCake from '../assets/Sponsors/interviewcake.png';
 import SiraPrint from "../assets/Sponsors/SiraPrint.png";
 import VueSchool from "../assets/Sponsors/vueschool.png";
+import WASP from "../assets/Sponsors/WASP.png";
+import BEST from "../assets/Sponsors/BEST.png";
+import DoraHacks from "../assets/Sponsors/Dorahacks.png";
+import FGF from "../assets/Sponsors/fgf.png";
+import Ranfoods from "../assets/Sponsors/ranfoods.png";
+
 
 function Sponsors() {
   return (
@@ -41,7 +46,8 @@ function Sponsors() {
         Meet our Sponsors!
       </h2>
 
-      {/* Gold Sponsors 
+      {/* Gold Sponsors  */}
+
       <div className="mb-8">
         <div className="grid grid-cols-1 gap-4 mb-8 justify-items-center place-items-center">
           <div className="w-full h-28 lg:h-40 md:h-36 sm:h-28 bg-white rounded-full border-4 border-yellow-400 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
@@ -50,20 +56,12 @@ function Sponsors() {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 mb-8 justify-items-center place-items-center">
-          <div className="w-full h-28 lg:h-40 md:h-36 sm:h-28 bg-white rounded-full border-4 border-yellow-400 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
-            <a href="https://lassonde.yorku.ca/" target="_blank" rel="noreferrer">
-              <img src={Lassonde} alt="Lassonde" className="h-16 object-contain" />
-            </a>
-          </div>
-        </div>
-      </div>*/}
-
+      </div>
 
       {/* Silver Sponsors */}
       <div className="mb-8">
         <div className="grid grid-cols-1 gap-4 mb-8 justify-items-center place-items-center">
-          <div className="w-full h-28 lg:h-40 md:h-36 sm:h-28 bg-white rounded-full border-4 border-gray-300 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+          <div className="w-full lg:w-[1000px] h-28 lg:h-40 md:h-36 sm:h-28 bg-white rounded-full border-4 border-gray-300 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://jobs.rbc.com/ca/en/students-graduates" target="_blank" rel="noreferrer">
               <img src={RBC} alt="RBC" className="h-20 sm:h-20 md:h-32 object-contain" />
             </a>
@@ -73,7 +71,13 @@ function Sponsors() {
 
       { /* Bronze Sponsors */}
       <div className="mb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 justify-items-center place-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-8 justify-items-center place-items-center text">
+
+          <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://www.ubisoft.com/en-us/company/careers/interns-graduates" target="_blank" rel="noreferrer">
+              <img src={Ubisoft} alt="Ubisoft" className="h-16 md:h-20 object-contain" />
+            </a>
+          </div>
 
           <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.kpmpower.com/" target="_blank" rel="noreferrer">
@@ -110,33 +114,44 @@ function Sponsors() {
               <img src={YorkRegion} alt="YorkRegion" className="h-14 md:h-20 object-contain" />
             </a>
           </div>
+
+          <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://www.york.ca/" target="_blank" rel="noreferrer">
+              <img src={PG} alt="PG" className="h-14 md:h-20 object-contain" />
+            </a>
+          </div>
+
         </div>
       </div>
 
       { /* Community Sponsors */}
       <div className="mb-8">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8 justify-items-center place-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8 justify-items-center place-items-center">
 
           <div className="w-full h-14 sm:h-22 bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://developer.microsoft.com/en-us/reactor/" target="_blank" rel="noreferrer">
               <img src={Reactor} alt="Community Sponsor" className="h-8 object-contain" />
             </a>
           </div>
+
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://investbrampton.ca/locate-here/innovation-district/" target="_blank" rel="noreferrer">
               <img src={BramptionInnovationDistrict} alt="Community Sponsor" className="h-8 object-contain" />
             </a>
           </div>
+
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.voiceflow.com/" target="_blank" rel="noreferrer">
               <img src={VoiceFlow} alt="Community Sponsor" className="h-6 object-contain" />
             </a>
           </div>
+
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.levelupreality.ca/" target="_blank" rel="noreferrer">
               <img src={LevelUp} alt="Community Sponsor" className="h-7 md:h-9 object-contain" />
             </a>
           </div>
+
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.standoutstickers.com/?srsltid=AfmBOopNkIb2AnJvdcvEBv5sjg4xbijr5kfaZ0EExfDaWWkK9Ogt-5pz" target="_blank" rel="noreferrer">
               <img src={StandOutSticker} alt="Community Sponsor" className="h-11 object-contain" />
@@ -201,6 +216,34 @@ function Sponsors() {
               <img src={SiraPrint} alt="SiraPrint" className="h-6 object-contain" />
             </a>
           </div>
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://wasp-lang.dev/" target="_blank" rel="noreferrer">
+              <img src={WASP} alt="WASP" className="h-8 object-contain" />
+            </a>
+          </div>
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://lassonde.yorku.ca/best/" target="_blank" rel="noreferrer">
+              <img src={BEST} alt="BEST" className="h-6 sm:h-8 object-contain" />
+            </a>
+          </div>
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://dorahacks.io/" target="_blank" rel="noreferrer">
+              <img src={DoraHacks} alt="DoraHacks" className="h-14 object-contain" />
+            </a>
+          </div>
+
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://www.fgfbrands.com/" target="_blank" rel="noreferrer">
+              <img src={FGF} alt="FGF" className="h-10 object-contain" />
+            </a>
+          </div>
+
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://ranfoods.com/pages/about-us-updated" target="_blank" rel="noreferrer">
+              <img src={Ranfoods} alt="Ranfoods" className="h-10 object-contain" />
+            </a>
+          </div>
+
         </div>
       </div>
     </div>

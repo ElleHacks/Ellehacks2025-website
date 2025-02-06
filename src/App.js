@@ -13,7 +13,7 @@ import Location from './components/Location';
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam';
 import Footer from './components/Footer';
 import Application from './components/Applications';
-//import Instagram from './components/Instagram';
+// import Instagram from './components/Instagram';
 
 function App() {
   return (

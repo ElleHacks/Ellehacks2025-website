@@ -13,7 +13,6 @@ function Instagram() {
     }, []);
 
     return (
-
         <div className="mt-10 font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 mb-32 select-none w-full max-w-screen-xl">
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 justify-items-center place-items-center">
