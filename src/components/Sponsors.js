@@ -15,6 +15,8 @@ import YorkRegion from '../assets/Sponsors/YorkRegion.png';
 import CSE from "../assets/Sponsors/CSE.jpg";
 import PG from "../assets/Sponsors/P&G.png";
 import Ubisoft from "../assets/Sponsors/Ubisoft.png";
+import Quantum from "../assets/Sponsors/quantum.png";
+import ICP from "../assets/Sponsors/icp.png";
 
 // Community Sponsors
 import Reactor from '../assets/Sponsors/Reactor.png';
@@ -37,6 +39,7 @@ import BEST from "../assets/Sponsors/BEST.png";
 import DoraHacks from "../assets/Sponsors/Dorahacks.png";
 import FGF from "../assets/Sponsors/fgf.png";
 import Ranfoods from "../assets/Sponsors/ranfoods.png";
+import Github from "../assets/Sponsors/github-logo.png";
 
 
 function Sponsors() {
@@ -118,6 +121,18 @@ function Sponsors() {
           <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.york.ca/" target="_blank" rel="noreferrer">
               <img src={PG} alt="PG" className="h-14 md:h-20 object-contain" />
+            </a>
+          </div>
+
+          <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://x.com/icphub_CA" target="_blank" rel="noreferrer">
+              <img src={Quantum} alt="Quantumlabs" className="h-8 md:h-12 object-contain" />
+            </a>
+          </div>
+
+          <div className="w-100 h-20 md:w-64 md:h-32 sm:h-35 bg-white rounded-full border-4 border-amber-600 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://quantumleaplabs.ca/" target="_blank" rel="noreferrer">
+              <img src={ICP} alt="ICP" className="h-14 sm:h-20 object-contain" />
             </a>
           </div>
 
@@ -241,6 +256,12 @@ function Sponsors() {
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://ranfoods.com/pages/about-us-updated" target="_blank" rel="noreferrer">
               <img src={Ranfoods} alt="Ranfoods" className="h-10 object-contain" />
+            </a>
+          </div>
+
+          <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">
+              <img src={Github} alt="Github" className="h-6 object-contain" />
             </a>
           </div>
 
