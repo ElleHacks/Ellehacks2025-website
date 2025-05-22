@@ -18,14 +18,14 @@ const HeroSection = () => {
                 </a>
 
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSetoKtXD8zkb_0-aGIfI_C3RogXQi3dXXxuEKPvtY2zqteUDg/viewform?fbzx=-6318378017637349778"
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <button
                         className="mt-2 bg-[#555F49] font-['Faustina'] text-white text-sm py-2 px-4 rounded-3xl hover:bg-[#D8AA6C]"
                     >
-                        Apply Now
+                        Coming Soon
                     </button>
                 </a>
 
