@@ -79,12 +79,6 @@ function NavBar() {
                         <ScrollLink to="faq" spy smooth duration={500} className={`${linkText} block py-2`} onClick={closeMenu}>
                             FAQ
                         </ScrollLink>
-                        <ScrollLink to="location" spy smooth duration={500} className={`${linkText} block py-2`} onClick={closeMenu}>
-                            Location
-                        </ScrollLink>
-                        <ScrollLink to="meettheteam" spy smooth duration={500} className={`${linkText} block py-2`} onClick={closeMenu}>
-                            Meet the Team
-                        </ScrollLink>
                         <ScrollLink to="contactus" spy smooth duration={500} className={`${linkText} block py-2`} onClick={closeMenu}>
                             Contact Us
                         </ScrollLink>
@@ -93,7 +87,7 @@ function NavBar() {
 
             </nav>
 
-            <a href="https://mlh.io/seasons/2025/events" className="fixed top-0 right-6 z-[2000]">
+            <a href="https://mlh.io/seasons/2026/events" className="fixed top-0 right-6 z-[2000]">
                 <img
                     src={MLHBanner}
                     alt="MLH Trust Badge"

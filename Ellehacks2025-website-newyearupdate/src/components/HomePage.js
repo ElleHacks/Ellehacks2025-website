@@ -12,13 +12,13 @@ const HeroSection = () => {
                 <p className="text-xl text-black font-['Faustina'] m-0 leading-none">January 2026 · In-person event</p>
 
                 {/* Logo and "Official Member" Text */}
-                <a href="https://mlh.io/seasons/2025/events" target="_blank" rel="noopener noreferrer" className="flex items-center no-underline">
+                <a href="https://mlh.io/seasons/2026/events" target="_blank" rel="noopener noreferrer" className="flex items-center no-underline">
                     <img src={MLHLogo} alt="MLH Logo" className="mr-2 w-11 h-11" />
                     <span className="font-['Faustina'] text-xl font-semibold text-[#555F49] leading-none">Official Member</span>
                 </a>
 
                 <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSd2PK8OmAZLtt3pdrnMAIBpG0mm_3Nz4_Og2hP-sV7trjTfUA/viewform?usp=sharing&ouid=118205916949365968282"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSd2PK8OmAZLtt3pdrnMAIBpG0mm_3Nz4_Og2hP-sV7trjTfUA/viewform"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -45,7 +45,7 @@ const HeroSection = () => {
 
                         {/* MLH Logo and "Official Member" Text */}
                         <a
-                            href="https://mlh.io/seasons/2025/events"
+                            href="https://mlh.io/seasons/2026/events"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center no-underline"
@@ -55,7 +55,7 @@ const HeroSection = () => {
                         </a>
                     </div>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2PK8OmAZLtt3pdrnMAIBpG0mm_3Nz4_Og2hP-sV7trjTfUA/viewform?usp=sharing&ouid=118205916949365968282"
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2PK8OmAZLtt3pdrnMAIBpG0mm_3Nz4_Og2hP-sV7trjTfUA/viewform"
                         target="_blank"
                         rel="noopener noreferrer">
                         <button className="mt-3 bg-[#555F49] font-['Faustina'] text-white text-xl lg:text-2xl py-2 px-12 rounded-3xl hover:bg-[#D8AA6C]">

@@ -22,7 +22,7 @@ import ICP from "../assets/Sponsors/icp.png";
 import Reactor from '../assets/Sponsors/Reactor.png';
 import BramptionInnovationDistrict from '../assets/Sponsors/Brampton_Innovation.png';
 import VoiceFlow from '../assets/Sponsors/Voiceflow.png';
-import StandOutSticker from '../assets/Sponsors/StandOutSticker.png';
+import PureButtons from '../assets/Sponsors/PureButtons.png';
 import LevelUp from '../assets/Sponsors/LevelUp.png';
 import XYZ from '../assets/Sponsors/XYZ.png';
 import ZebraRobotics from '../assets/Sponsors/ZebraRobotics.png';
@@ -46,7 +46,7 @@ function Sponsors() {
   return (
     <div className="mt-20 font-[Faustina] h-auto px-4 mx-auto lg:mx-20 xl:mx-64 mb-32 select-none w-full max-w-screen-xl">
       <h2 className="text-4xl sm:text-5xl md:text-5xl mb-4 text-left text-[#555F49] font-bold">
-        Last Years Sponsors!
+        Our Sponsors!
       </h2>
 
       {/* Gold Sponsors  */}
@@ -169,7 +169,7 @@ function Sponsors() {
 
           <div className="w-full h-14 sm:h-22  bg-white bg-white rounded-full border-4 border-emerald-800 flex justify-center items-center transform transition-transform duration-300 hover:translate-y-2 hover:shadow-lg">
             <a href="https://www.standoutstickers.com/?srsltid=AfmBOopNkIb2AnJvdcvEBv5sjg4xbijr5kfaZ0EExfDaWWkK9Ogt-5pz" target="_blank" rel="noreferrer">
-              <img src={StandOutSticker} alt="Community Sponsor" className="h-11 object-contain" />
+              <img src={PureButtons} alt="Community Sponsor" className="h-9 object-contain" />
             </a>
           </div>
 
